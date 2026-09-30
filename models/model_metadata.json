@@ -1,0 +1,107 @@
+{
+  "price_model": "Gradient Boosting",
+  "growth_model": "Linear Regression",
+  "price_metrics": {
+    "MAE": 557381.2054459336,
+    "MSE": 1063533289281.9768,
+    "RMSE": 1031277.503527531,
+    "R2": 0.9535993693427723
+  },
+  "growth_metrics": {
+    "MAE": 0.580423839393241,
+    "MSE": 0.5347901117825314,
+    "RMSE": 0.7312934512099308,
+    "R2": 0.8150109936361033
+  },
+  "growth_rmse_pct_points": 0.7312934512099308,
+  "n_rows_after_cleaning": 9938,
+  "random_state": 42,
+  "input_columns": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "age_years",
+    "location_score",
+    "distance_to_city_km",
+    "distance_to_metro_km",
+    "school_rating",
+    "hospital_distance_km",
+    "crime_rate",
+    "parking_spaces",
+    "economic_growth_rate",
+    "historical_price_trend_pct",
+    "property_type"
+  ],
+  "property_types": [
+    "Apartment",
+    "Independent House",
+    "Villa"
+  ],
+  "feature_stats": {
+    "area_sqft": {
+      "min": 350.0,
+      "max": 19100.0,
+      "median": 1337.0
+    },
+    "bedrooms": {
+      "min": 1.0,
+      "max": 6.0,
+      "median": 3.0
+    },
+    "bathrooms": {
+      "min": 1.0,
+      "max": 6.0,
+      "median": 2.0
+    },
+    "age_years": {
+      "min": 0.0,
+      "max": 50.0,
+      "median": 11.0
+    },
+    "location_score": {
+      "min": 1.0,
+      "max": 10.0,
+      "median": 6.0
+    },
+    "distance_to_city_km": {
+      "min": 0.5,
+      "max": 32.3,
+      "median": 11.4
+    },
+    "distance_to_metro_km": {
+      "min": 0.1,
+      "max": 25.0,
+      "median": 3.0
+    },
+    "school_rating": {
+      "min": 1.0,
+      "max": 10.0,
+      "median": 5.5
+    },
+    "hospital_distance_km": {
+      "min": 0.3,
+      "max": 22.5,
+      "median": 2.3
+    },
+    "crime_rate": {
+      "min": 2.0,
+      "max": 67.0,
+      "median": 30.1
+    },
+    "parking_spaces": {
+      "min": 0.0,
+      "max": 4.0,
+      "median": 1.0
+    },
+    "economic_growth_rate": {
+      "min": 1.0,
+      "max": 10.0,
+      "median": 6.01
+    },
+    "historical_price_trend_pct": {
+      "min": -3.0,
+      "max": 13.93,
+      "median": 3.98
+    }
+  }
+}
